@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: black;
+    height: 15%;
+}
+
+.head{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* Naviagation Bar */
+nav{
+    background-color: rgb(105,105,105);
+    height: 45px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid black;
+    font-size: large;
+    padding: 12px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navlink:hover{
+    color:red
+}
+
+
+/* main class */
+.main{
+    height: 60%;
+    background-color: gainsboro;
+}
+
+/* sidebar */
+.sidebar{
+    float: right;
+    width: 35%;
+    padding: 30px;
+}
+
+.sidebarlink{
+    text-decoration: none;
+    color: orangered;
+}
+
+.sidebarhead, .widgetshead {
+    border-bottom: 2px solid rgb(105, 105, 105);
+    padding-bottom: 10px;
+}
+
+.widgetstext {
+    padding-top: 15px;
+}
+
+.sidebarlinkgroup {
+    padding-bottom: 30px;
+}
+
+/* content */
+.content {
+    width: 65%;
+    background-color: whitesmoke;
+}
+
+/* body */
+.body{
+    border-bottom: 2px solid rgb(105, 105, 105);
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    display: inline-block ;
+    width: 20%;
+    height: 150px;
+    background-color: gainsboro;
+    margin: 25px 15px;
+}
+
+.inn{
+    float: right;
+    width: 70%;
+    padding: 30px 10px 20px;
+    text-align: left;
+}
+
+.num{
+    color: orangered;
+    font-size: xxx-large;
+}
+
+.xyz{
+    padding-top: 10px ;
+}
+
+.yoursite{
+    color: orangered;
+}
+
+.footer {
+    background-color:  rgb(105,105,105);
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+ 
+@media only screen and (max-width: 991px) {
+
+    h1{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 7px;;
+    }
+
+    .body {
+        margin: 15px;
+        width: 80%;
+        height: 90%;
+    }
+
+    header{
+        background-color: black;
+        height: 10%;
+    }
+    
+    .main{
+        height: 100%;
+        background-color: gainsboro;
+    }
+    
+    .footer {
+        background-color:  rgb(105,105,105);
+        height: 20px;
+        text-align: center;
+        color: white;
+        font-size: medium;
+    }
+    
+    .content {
+        width: 60%;
+        background-color: whitesmoke;
+    }
+    
+    .sidebar{
+        float: right;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .inn{
+        float: right;
+        max-width: 70%;
+        padding: 10px 5px;
+        text-align: left;
+    }
+
+    .img{
+        display: inline-block ;
+        width: 20%;
+        height: 80px;
+        background-color: gainsboro;
+        margin: 5px 10px;
+    }
+
+    .sidebarhead, .widgetshead {
+        border-bottom: 2px solid rgb(105, 105, 105);
+        padding-bottom: 10px;
+    }
+    
+    .widgetstext {
+        padding-top: 4px;
+    }
+    
+    .sidebarlinkgroup {
+        padding-bottom: 8px;
+    }
+    
+    .xyz{
+        padding-top: 4px ;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    h1{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 7px;;
+    }
+
+    .body {
+        margin: 15px;
+        width: 61%;
+        height: 90%;
+    }
+
+    header{
+        background-color: black;
+        height: 10%;
+    }
+    
+    .main{
+        height: 100%;
+        background-color: gainsboro;
+    }
+    
+    .footer {
+        background-color:  rgb(105,105,105);
+        height: 30px;
+        text-align: center;
+        color: white;
+        font-size: x-large;
+    }
+    
+    .content {
+        width: 60%;
+        background-color: whitesmoke;
+    }
+    
+    .sidebar{
+        width: 40%;
+        padding: 10px;
+    }
+
+    .inn{
+        float: right;
+        max-width: 70%;
+        padding: 10px 5px;
+        text-align: left;
+    }
+
+    .img{
+        display: inline-block ;
+        width: 20%;
+        height: 80px;
+        background-color: gainsboro;
+        margin: 5px 10px;
+    }
+
+    .sidebarhead, .widgetshead {
+        border-bottom: 2px solid rgb(105, 105, 105);
+        padding-bottom: 10px;
+    }
+    
+    .widgetstext {
+        padding-top: 4px;
+    }
+    
+    .sidebarlinkgroup {
+        padding-bottom: 8px;
+    }
+    
+    .xyz{
+        padding-top: 4px ;
+    }
+}
+
+
+

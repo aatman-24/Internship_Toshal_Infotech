@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+}
+
+.left{
+    min-height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+
+#signup{
+    writing-mode: vertical-rl;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg) scaleX(1);
+    font-size: xxx-large;
+    font-style: oblique;
+    color: gainsboro;
+    font-family: system-ui;
+}
+
+.right {
+
+}
+
+.newUser{
+    padding: 4% 0% 3% 2%;
+}
+
+.formfield{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    text-decoration: underline;
+}
+
+input[type='text'], input[type ='number'], input[type='password'], input[type='date'], input[type='email']{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 10px;
+}
+
+.form-select {
+    display: inline-block;
+    /* background: transparent; */
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 10px;
+}
+
+.end {
+    padding-top: 2%;
+}

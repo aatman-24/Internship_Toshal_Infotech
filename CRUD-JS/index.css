@@ -1,0 +1,27 @@
+.common {
+    min-height: 50vh;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+}
+
+.C {
+    background-color: red;
+}
+
+.R {
+    background-color: white;    
+}
+
+.U {
+    background-color: yellow;
+}
+
+.D {
+    background-color: green;
+}
+
+.chr{
+    font-size: 30vh;
+    color:black;
+}

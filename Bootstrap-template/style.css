@@ -1,0 +1,131 @@
+/* *{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Header-HTML */
+.head{
+    color: white;
+    font-size: xx-large;
+}
+
+/* Header-5 */
+.num{
+    color: orangered;
+    font-size: xxx-large;
+    vertical-align: sub;
+}
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.nav-item{
+    border-right: 2px solid black;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+h1 {
+    font-size: calc(0.875rem + 1.0vw);
+}
+
+/* main body */
+
+.content {
+    text-align: left;
+}
+
+.body{
+    border-bottom: 2px solid rgb(105, 105, 105);
+}
+    
+
+.img{
+    width: 20%;
+    height: 10rem;
+    background-color: gainsboro;
+    margin: 25px 15px;
+}
+
+.inn{
+    float: right;
+    width: 70%;
+    padding: 30px 10px 20px;
+    text-align: left;
+}
+
+.main {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,0.15rem);
+    padding-left: var(--bs-gutter-x,0.15rem);
+}
+
+
+
+/* sidebar */
+.sidebarhead, .widgetshead {
+    border-bottom: 2px solid rgb(105, 105, 105);
+    padding-bottom: 10px;
+}
+
+.sidebar-body {
+    background-color: gainsboro;
+}
+
+.sidebarlink{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.sidebarlinkgroup{
+    padding-top: 3rem;
+}
+
+.widgets {
+    padding-top: 3rem;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.content {
+    background-color: whitesmoke;
+}
+
+
+/* footer */
+
+
+.footer {
+    background-color:  rgb(105,105,105);
+    /* height: 30px; */
+    text-align: center;
+    color: white;
+    margin: 0px;
+    /* font-size: medium; */
+}
+
+.copyright{
+    margin-bottom: 0px;
+}
+
+
+.yoursite{
+    color: orangered;
+}
+
+
